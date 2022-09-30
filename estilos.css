@@ -1,0 +1,181 @@
+/* Hoja de estilos */
+
+/*Importacion de fuentes */
+
+@import url('https://fonts.googleapis.com/css2?family=Zen+Kaku+Gothic+Antique:wght@500&display=swap');
+
+
+
+/***************************/
+
+
+* {
+
+    /*background-color: rgb(105, 152, 171);*/
+    font-family: 'Zen Kaku Gothic Antique', sans-serif;
+    color: rgb(220, 215, 201);
+    margin-left: 2.5vw;
+    margin-right: 2.5vw;
+    padding: 0px;
+
+}
+
+/*TIPO TAG*/
+body {
+
+    background-color: rgb(44, 54, 57);
+    font-size: 14px;
+
+
+
+
+}
+
+/* H */
+
+h1 {
+    /*margin-right: 100px;*/
+
+    background-color: rgba(63, 78, 79, 0.32);
+    font-style: "bold";
+    font-size: 5em;
+    color: rgb(162, 123, 92);
+
+}
+
+
+h2 {
+
+
+    background-color: rgba(63, 78, 79, 0.32);
+    font-weight: bolder;
+}
+
+h3 {
+
+
+    background-color: rgba(63, 78, 79, 0.32);
+}
+
+nav {
+
+    background-color: rgb(162, 123, 92);
+    font-size: 1.5em;
+}
+
+footer {
+
+    background-color: rgb(162, 123, 92);
+    font-size: 1.5em;
+
+}
+
+/* P */
+p {}
+
+p.foot {
+
+    background-color: rgb(162, 123, 92);
+    font-style: "bold";
+    font-size: 1em;
+    color: rgb(44, 54, 57);
+    vertical-align: middle;
+    text-align: center;
+
+
+
+}
+
+
+
+a {
+
+    background-color: transparent;
+
+    color: rgb(231, 231, 231);
+
+}
+
+/* Tipo clase , selector */
+
+
+div.enlinea{
+    display: inline-block;
+   
+    padding: 5px;
+    border: 1px solid blue;    
+    background-color: rgb(116, 116, 65); 
+
+
+}
+
+
+
+
+
+.subtitlos {
+
+    margin-left: 100px;
+    margin-right: 100px;
+    padding: 5px;
+    background-color: rgb(50, 76, 110);
+
+}
+
+span.a {
+    display: inline;
+    /* the default for span */
+    width: 100px;
+    height: 100px;
+    padding: 5px;
+    border: 1px solid rgb(0, 0, 0);
+    background-color: yellow;
+}
+
+span.b {
+    display: inline-block;
+    padding: 5px;
+    width: 30vw;
+    height: 60vh;
+}
+
+span.c {
+    display: block;
+    width: 100px;
+    height: 100px;
+    padding: 5px;
+    border: 1px solid black;
+    background-color: yellow;
+}
+
+/* Tipo  */
+
+
+#texto {
+
+    margin-left: 100px;
+    margin-right: 100px;
+    padding: 5px;
+    background-color: rgb(50, 76, 110);
+
+
+}
+
+#textoconimagen {
+    display: inline-block;
+    vertical-align: top;
+    margin-left: 100px;
+    margin-right: 100px;
+    padding: 5px;
+    background-color: rgb(143, 143, 143);
+
+
+}
+
+/* Imagen*/
+
+img.alineadaCentro {
+
+    vertical-align: middle;
+
+}
